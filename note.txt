@@ -1,0 +1,42 @@
+crud - create read delete update 
+ajke amra shikhlkam
+SELECT diye sql search- fetching data 
+keywords -
+
+SELECT * FROM students;
+SELECT name, roll FROM students;
+SELECT * FROM students WHERE roll= 1;
+SELECT * FROM students WHERE address='';
+SELECT * FROM students WHERE id=2;
+
+update=update
+
+UPDATE 
+
+UPDATE students SET phone="01693493976" WHERE id=2;
+UPDATE students SET phone="01693493976", address="Mohakhali, Dhaka", email="example@gmail.com", roll=5 WHERE name="Rahim";
+
+DELETE = DELETE
+DELETE FROM students WHERE id=4;
+
+
+CRUD => CREATE READ UPDATE DELETE
+
+SQL => Structured Query Language
+
+
+1. Students
+2. Teachers
+3. Staff
+
+1. About You
+2. Services
+3. Projects
+
+batch_16_school_mgt
+    ->students (id, name, class, roll, phone, email, address, blood)
+    ->teachers (id, name)
+    ->staffs
+
+CREATE (Insert) Query:
+INSERT INTO students (name, class, roll, phone, email, address, blood_group) VALUES ('Rabbi', 'Five', 6, '01682898709', 'rabbi@gmail.com', 'Uttara,Sector-9,Road-1/A,H-6', 'A+');    
